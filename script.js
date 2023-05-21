@@ -8,5 +8,5 @@ for(let i =0; i < td.length; i++){
 const newTd = document.createElement("tr");
 newTd.innerText = sum;
 newTd.setAttribute('data-ns-test', 'grandTotal');
-
+console.log(newTd);
 tbody.appendChild(newTd);
